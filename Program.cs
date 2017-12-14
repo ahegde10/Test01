@@ -88,7 +88,7 @@ namespace Test01
                         //replace the longest word with an empty string to find the second longest word
                         listOfWords = listOfWords.Select(x => x.Replace(tempLongest, string.Empty)).ToArray();
                         count++;
-                        Console.WriteLine(i + ",  " + count);
+                        //Console.WriteLine(i + ",  " + count);
                     }
                 }
 
